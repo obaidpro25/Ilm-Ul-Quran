@@ -1,0 +1,16 @@
+export const courses = [
+  { title: 'Noorani Qaida & Foundations', category: 'Beginner', duration: '12 weeks', image: '/images/courses/qaida-foundations.jpg', description: 'Build confident Arabic reading from the alphabet through joined words, vowels and essential pronunciation.', syllabus: ['Arabic letters & articulation', 'Vowels, tanween and sukoon', 'Joining letters fluently', 'Daily guided reading practice'], accent: 'from-emerald-900 to-emerald-600' },
+  { title: 'Quran Reading with Tajweed', category: 'Intermediate', duration: '24 weeks', image: '/images/courses/tajweed-recitation.jpg', description: 'Develop accurate, beautiful recitation with live correction and a practical command of Tajweed.', syllabus: ['Makharij & letter qualities', 'Rules of noon and meem', 'Madd, qalqalah and waqf', 'Fluency and guided recitation'], accent: 'from-teal-900 to-cyan-700' },
+  { title: 'Hifz — Quran Memorisation', category: 'All levels', duration: 'Personal pace', image: '/images/courses/hifz-memorisation.jpg', description: 'A sustainable one-to-one memorisation pathway built around revision, retention and consistency.', syllabus: ['Personalised memorisation plan', 'Sabaq, sabqi and manzil', 'Weekly retention checks', 'Motivation and parent reports'], accent: 'from-amber-900 to-amber-600' },
+  { title: 'Arabic for Quran', category: 'Intermediate', duration: '20 weeks', description: 'Understand frequently used Quranic vocabulary and the grammar patterns that unlock meaning.', syllabus: ['High-frequency vocabulary', 'Word roots and patterns', 'Essential nahw and sarf', 'Guided ayah analysis'], accent: 'from-indigo-900 to-indigo-600' },
+  { title: 'Islamic Studies for Kids', category: 'Ages 6–14', duration: 'Ongoing', description: 'Age-appropriate lessons in faith, worship, manners and Seerah through stories and activities.', syllabus: ['Aqeedah foundations', 'Prayer and daily worship', 'Prophetic character', 'Stories, quizzes and projects'], accent: 'from-rose-900 to-rose-600' },
+  { title: 'Ijazah Preparation', category: 'Advanced', duration: 'By assessment', description: 'Rigorous recitation coaching for advanced learners preparing to read to an authorised teacher.', syllabus: ['Full recitation assessment', 'Precision in Tajweed', 'Error log and revision plan', 'Sanad readiness guidance'], accent: 'from-slate-900 to-emerald-700' },
+];
+
+export const tutors = [
+  { name: 'Female Qaida Tutor', role: 'Qaida & Kids Specialist', experience: '8 years', languages: ['English', 'Arabic'], initials: 'FQ', image: '/images/tutors/maryam-niqab-v2.jpg' },
+  { name: 'Female Hifz Tutor', role: 'Hifz Mentor', experience: '7 years', languages: ['English', 'Urdu'], initials: 'FH', image: '/images/tutors/safiya-niqab-v2.jpg' },
+  { name: 'Male Arabic Tutor', role: 'Quranic Arabic Teacher', experience: '9 years', languages: ['English', 'Arabic'], initials: 'MA', image: '/images/tutors/yusuf.jpg' },
+  { name: 'Female Support Tutor', role: 'Women & Revert Mentor', experience: '10 years', languages: ['English', 'French'], initials: 'FS', image: '/images/tutors/maryam-niqab-v2.jpg' },
+  { name: 'Male Youth Tutor', role: 'Youth Islamic Studies', experience: '6 years', languages: ['English', 'Urdu'], initials: 'MY', image: '/images/tutors/yusuf.jpg' },
+];
